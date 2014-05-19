@@ -72,7 +72,6 @@ a:active {
 
 }
 
-
 #content p {
 	float:left;
 	width:60%;
@@ -91,6 +90,27 @@ a:active {
 	margin-right:auto;
 }
 
+#article {
+	float:left;
+	margin:0% 25%;
+	clear:left;
+	color: #FFF520;
+	background-color:#089499;
+	font-weight:bold;
+	font-size:13px;
+	padding:1%;
+	width:50%;
+	display:block;
+	border-style:solid;
+	border-width:medium;
+	border-color:#FFF520;
+
+}
+
+.title {
+	text-decoration: underline;
+}
+
 #footer {
 	position:absolute;
 	left:40%;
@@ -98,6 +118,7 @@ a:active {
 	color:#C746CC;
 	font-weight:bold;
 }
+
 
 h1{
 	font-size:50px;
