@@ -1,0 +1,132 @@
+body {
+	font-family: Calibri, Sans-Serif;
+	font-size: 12px;
+	width:100%;
+	background-image: url("../images/candy.jpg");
+	background-attachment:fixed
+	overflow:auto;
+}
+
+
+#header{
+	float:left;
+	color: #089499;
+	margin-left:2%;
+	margin-top:2%;
+	width:28%;
+	height:auto;
+}
+
+a,a:link {
+	color:#FF8AB6;
+}
+
+a:visited {
+	color:#C746CC;
+}
+
+a:hover {
+	color:#FFF520;
+}
+
+a:active {
+	color:#FFF520;
+}
+
+#nav {
+	float:right;
+	margin-top: 3.5%;
+	margin-right: 3%;
+	margin-bottom:5%;
+	width:64%;
+}
+
+#nav p{
+	float:right;
+	width:11%;
+	padding:.5%;
+	margin:0% 2%;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	border-width:thin;
+	border-style:solid;
+	border-color:#FF8AB6;
+}
+
+
+#content {
+	float:left;
+	margin:0% 25%;
+	clear:left;
+	color: #FFF520;
+	background-color:#089499;
+	font-weight:bold;
+	font-size:13px;
+	padding:1%;
+	width:50%;
+	display:block;
+	border-style:solid;
+	border-width:medium;
+	border-color:#FFF520;
+
+}
+
+#content p {
+	float:left;
+	width:60%;
+}
+
+.image caption{
+	float:right;
+	width:40%;
+	overflow:hidden;
+	text-align:middle;
+}
+
+.image img{
+	float:left;
+	margin-left:10%;
+	margin-right:auto;
+}
+
+#article {
+	float:left;
+	margin:0% 25%;
+	clear:left;
+	color: #FFF520;
+	background-color:#089499;
+	font-weight:bold;
+	font-size:13px;
+	padding:1%;
+	width:50%;
+	display:block;
+	border-style:solid;
+	border-width:medium;
+	border-color:#FFF520;
+
+}
+
+.title {
+	text-decoration: underline;
+}
+
+#footer {
+	position:absolute;
+	left:40%;
+	bottom:2%;
+	color:#C746CC;
+	font-weight:bold;
+}
+
+
+h1{
+	font-size:50px;
+	margin: 0 0;
+}
+
+h2{
+	font-size:15px;
+	font-style:italic;
+	margin-top:0px;
+}
