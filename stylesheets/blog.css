@@ -110,7 +110,19 @@ body {
 	position:absolute;
 	top:175px;
 	left:22.8px;
+	width: 900px;
 	margin-right:35px;
+}
+
+#sidebar {
+	width:300px;
+	position:absolute;
+	top:175px;
+	left:925px;
+	font-size: 1.5em;
+	color:#FFF520;
+	text-decoration:none;
+	line-height: 2;
 }
 
 #text h3 {
