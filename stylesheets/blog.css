@@ -10,6 +10,7 @@ body {
 	overflow:auto;
 }
 
+
 /*Classes*/
 .container {
 	position:relative;
@@ -39,6 +40,17 @@ body {
 
 .nav a:active {
 	color:#FFF520;
+}
+
+.bullet {
+	color:#FF8AB6;
+	font-size:1em;
+	font-weight:bold;
+}
+
+.caption {
+	font-style:italic;
+	text-align:left;
 }
 
 
@@ -106,12 +118,38 @@ body {
 	font-style:italic;
 }
 
+
 #text {
 	position:absolute;
 	top:175px;
 	left:22.8px;
 	width: 900px;
 	margin-right:35px;
+}
+
+#text li {
+	font-size:1.3em;
+	line-height: 1.25;
+	color:white;
+	text-align:left;
+	padding-bottom:5px;
+	text-indent:10px;
+}
+
+#text h3 {
+	font-size:1.7em;
+	font-weight: bold;
+	text-align:left;
+	color:#FFF520;
+	padding-top:5px;
+
+}
+#text p {
+	font-size:1.3em;
+	line-height: 1.25;
+	color:white;
+	text-align:justify;
+	padding:5px;
 }
 
 #sidebar {
@@ -123,18 +161,6 @@ body {
 	color:#FFF520;
 	text-decoration:none;
 	line-height: 2;
-}
-
-#text h3 {
-	font-size:2em;
-	font-weight: bold;
-
-}
-#text p {
-	font-size:1.5em;
-	line-height: 1.25;
-	color:white;
-	text-align:justify;
 }
 
 #footer {
