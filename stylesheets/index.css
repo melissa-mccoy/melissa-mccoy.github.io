@@ -129,6 +129,7 @@ body {
 	opacity:.8;
 	background-image: url("../images/candy.jpg");
 	overflow:hidden;
+
 }
 
 #intro h1 {
@@ -136,6 +137,12 @@ body {
 	color:#089499;
 	position:absolute;
 	font-weight: bold;
+	text-shadow:
+    -.5px -.5px 0 #012324,
+    .5px -.5px 0 #012324,
+    -.5px .5px 0 #012324,
+    .5px .5px 0 #012324; 
+
 }
 
 #blog {
@@ -148,6 +155,11 @@ body {
 	width:100%;
 	height:225px;
 	background-color:#FAF249;
+	text-shadow:
+    -.5px -.5px 0 #FF8AB6,
+    .5px -.5px 0 #FF8AB6,
+    -.5px .5px 0 #FF8AB6,
+    .5px .5px 0 #FF8AB6; 
 }
 
 #footer {
